@@ -1,6 +1,7 @@
 // Require npm path
 var path = require("path");
 
+// Exporting routing
 module.exports = function(app) {
     // Defaulting to home.html
     app.get("/", function(req, res) {
