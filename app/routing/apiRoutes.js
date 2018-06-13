@@ -9,7 +9,7 @@ module.exports = function(app) {
     });
 
     // API POST request route
-    api.post("/api/friends", function(req, res) {
+    app.post("/api/friends", function(req, res) {
         // Variable to hold new friend's scores
         var newScores = req.body.scores;
 
