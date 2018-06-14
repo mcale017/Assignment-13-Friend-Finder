@@ -31,6 +31,22 @@ var friends = [
             3,
             3
         ]
+    },
+    {
+        name: "Rick",
+        picture: "https://vignette.wikia.nocookie.net/rickandmorty/images/d/dd/Rick.png/revision/latest?cb=20131230003659",
+        scores: [
+            1,
+            1,
+            1,
+            5,
+            3,
+            1,
+            5,
+            5,
+            1,
+            5
+        ]
     }
 ]
 
