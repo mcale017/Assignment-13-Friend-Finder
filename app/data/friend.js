@@ -4,15 +4,31 @@ var friends = [
         name: "Ryan McAleese",
         picture: "https://media.licdn.com/dms/image/C4E03AQFPiSdg1UOjgQ/profile-displayphoto-shrink_200_200/0?e=1534377600&v=beta&t=AlVqznGlIWth7aEA3fYVPQPL7f8IN9kiAhu9QoN_NbM",
         scores: [
-            5,
             1,
-            2,
+            5,
+            5,
             3,
             4,
-            5,
-            1,
-            3,
+            4,
             2,
+            2,
+            4,
+            4
+        ]
+    },
+    {
+        name: "Bender",
+        picture: "https://vignette.wikia.nocookie.net/villains/images/1/17/BenderHD.jpg/revision/latest?cb=20170413201605",
+        scores: [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
             3
         ]
     }

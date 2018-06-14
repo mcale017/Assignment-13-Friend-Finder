@@ -17,17 +17,17 @@ module.exports = function(app) {
         var allDiffScores = [];
 
         // Variable to hold the best match number (to use in the friends array)
-        var lowestScore;
+        var lowestScore = 0;
 
         // For loop to go through every friend in friends
         for (var i = 0; i < friends.length; i++) {
             // Variable to hold differences in scores
-            var diffScores;
+            var diffScores = 0;
 
             // 2nd for loop that will go through each friend's scores
             for (var j = 0; j < newScores.length; j++) {
-                // diffScores will add up from its previous total to the absolute value of difference in new friend's score against friend i's scores
-                diffScores += Math.abs(friends[i].scores[j] - newScores[j])
+                // diffScores will add up from its previous total to the absolute value of difference in new friend's score against friend i's scores          
+                diffScores += Math.abs(parseInt(friends[i].scores[j]) - parseInt(newScores[j]))
             };
 
             // Pushing the new diffScores into allDiffScores array
